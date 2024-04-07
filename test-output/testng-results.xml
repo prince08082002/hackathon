@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-07T10:31:39 IST" name="Suite" finished-at="2024-04-07T10:33:23 IST" duration-ms="104336">
+    <groups>
+      <group name="Regression">
+        <method signature="Test_CarInsurance.car()[pri:0, instance:TestCase.Test_CarInsurance@4ec4f3a0]" name="car" class="TestCase.Test_CarInsurance"/>
+        <method signature="Test_HealthInsurance.health()[pri:0, instance:TestCase.Test_HealthInsurance@223191a6]" name="health" class="TestCase.Test_HealthInsurance"/>
+        <method signature="Test_TravelInsurance.travel()[pri:0, instance:TestCase.Test_TravelInsurance@7f3b84b8]" name="travel" class="TestCase.Test_TravelInsurance"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Test_CarInsurance.car()[pri:0, instance:TestCase.Test_CarInsurance@4ec4f3a0]" name="car" class="TestCase.Test_CarInsurance"/>
+        <method signature="Test_HealthInsurance.health()[pri:0, instance:TestCase.Test_HealthInsurance@223191a6]" name="health" class="TestCase.Test_HealthInsurance"/>
+        <method signature="Test_TravelInsurance.travel()[pri:0, instance:TestCase.Test_TravelInsurance@7f3b84b8]" name="travel" class="TestCase.Test_TravelInsurance"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-04-07T10:31:39 IST" name="Test" finished-at="2024-04-07T10:33:23 IST" duration-ms="104336">
+      <class name="TestCase.Test_HealthInsurance">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCase.Test_HealthInsurance@223191a6]" started-at="2024-04-07T10:33:13 IST" name="setup" finished-at="2024-04-07T10:33:21 IST" duration-ms="7519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="health()[pri:0, instance:TestCase.Test_HealthInsurance@223191a6]" started-at="2024-04-07T10:33:21 IST" name="health" finished-at="2024-04-07T10:33:21 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- health -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Test_HealthInsurance@223191a6]" started-at="2024-04-07T10:33:21 IST" name="tearDown" finished-at="2024-04-07T10:33:23 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.Test_HealthInsurance -->
+      <class name="TestCase.Test_CarInsurance">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCase.Test_CarInsurance@4ec4f3a0]" started-at="2024-04-07T10:32:57 IST" name="setup" finished-at="2024-04-07T10:33:04 IST" duration-ms="7098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="car()[pri:0, instance:TestCase.Test_CarInsurance@4ec4f3a0]" started-at="2024-04-07T10:33:04 IST" name="car" finished-at="2024-04-07T10:33:12 IST" duration-ms="7925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Test_CarInsurance@4ec4f3a0]" started-at="2024-04-07T10:33:12 IST" name="tearDown" finished-at="2024-04-07T10:33:13 IST" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.Test_CarInsurance -->
+      <class name="TestCase.Test_TravelInsurance">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCase.Test_TravelInsurance@7f3b84b8]" started-at="2024-04-07T10:31:39 IST" name="setup" finished-at="2024-04-07T10:31:47 IST" duration-ms="7574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="travel()[pri:0, instance:TestCase.Test_TravelInsurance@7f3b84b8]" started-at="2024-04-07T10:31:47 IST" name="travel" finished-at="2024-04-07T10:32:54 IST" duration-ms="67507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Test_TravelInsurance@7f3b84b8]" started-at="2024-04-07T10:32:54 IST" name="tearDown" finished-at="2024-04-07T10:32:57 IST" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.Test_TravelInsurance -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

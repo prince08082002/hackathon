@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+    <listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+	
+  <test thread-count="5" name="Test">
+       <parameter name="browser" value="chrome" />
+    <groups>
+	<run>
+	<include name="Smoke"/>
+	<include name="Regression"/>
+	</run>
+	</groups>
+    <classes>
+      <class name="TestCase.Test_TravelInsurance"/>
+    <class name="TestCase.Test_CarInsurance"/>
+       <class name="TestCase.Test_HealthInsurance"/> 
+     
+    </classes>
+   </test> <!-- Test -->
+</suite> <!-- Suite -->
